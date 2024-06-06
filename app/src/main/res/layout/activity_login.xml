@@ -74,4 +74,14 @@
         app:backgroundTintMode="add"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueci minha senha"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="432dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
