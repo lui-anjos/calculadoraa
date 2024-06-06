@@ -15,13 +15,10 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    TextView txtRegister = (TextView) findViewById(R.id.txtRegister);
-txtRegister .setOnClickListener(new OnClickListener() {
-
-        public void onClick(View view) {
-            your codes here
-        }
-    });
+    public void NovaSenha(View view) {
+        Intent in = new Intent(login.this, nova_senha.class);
+        startActivity(in);
+    }
 
     public void Calc(View view) {
         Intent in = new Intent(login.this, calc.class);
